@@ -1,0 +1,186 @@
+body
+{
+	position: absolute;
+	width: 80%;
+	margin: auto;
+	background: rgb(128,128,128);
+	left: 10%;
+	
+}
+
+#page
+{
+	background-color: rgb(128,128,128);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	width:100%;
+
+}
+
+header
+{
+	height: 75px;
+	width:100%;
+	background: url('logo.jpg');
+	display: flex;
+	justify-content: space-between;
+	text-shadow: 1px 1px 3px black;
+	margin-bottom: 15px;
+	border-bottom: 5px solid blue;
+	position: absolute;
+	top: 0px;
+
+}
+
+nav
+{
+	/*height: 250px;*/
+	/*background: rgb(255,128,0);*/
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin-bottom: 10px;
+	border-bottom: 3px double lime;
+	padding-bottom: 5px;
+	position: absolute;
+	
+}
+
+#contenu
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 15px;
+	border-bottom: 5px solid blue;
+	padding-bottom: 5px;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+}
+
+#foot
+{
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    width:100%;
+    position: absolute;
+
+}
+
+#foot div
+{
+	width: 20%;
+}
+
+.menu
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	padding: 5px;
+
+}
+
+article
+{
+	width: 72%;
+	display: flex;
+	flex: row;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+
+}
+
+aside
+{
+	height: 400px;
+	background: rgb(102,0,204);
+	width: 23%;
+	overflow: hidden;
+	position: absolute;
+	left: 75%;
+	top: 200px;
+	position: absolute;
+}
+
+.smenu
+{
+	height: 50px;
+	/*background: rgb(0,204,0);*/
+	text-decoration: none;
+	font-style: italic;
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 2px;
+	padding: 5px;
+
+}
+
+a:visited
+{
+	color: black;
+}
+
+.ismenu
+{
+	/*height: 190px;
+	background: rgb(204,102,0);*/
+	display: none;
+}
+
+.text
+{
+	/*height: 190px;
+	background: rgb(102,204,0);*/
+	text-align: justify;
+	padding: 15px;
+	position: absolute;
+	left: 0px;
+
+}
+
+
+#photo
+{
+	align-self: center;
+	display: flex;
+	justify-content: space-around;
+	/*align-content: center;*/
+	position: absolute;
+	
+}
+
+blockquote
+{
+	color: pink;
+	font-size: 1.5em;
+	font-style: oblique;
+
+}
+
+a
+{
+	color: black;
+}
+
+h1
+{
+	color: red;
+	font-weight: bold;
+	font-style: oblique;
+	text-align: center;
+}
